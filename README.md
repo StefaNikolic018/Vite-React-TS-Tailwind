@@ -1,10 +1,8 @@
-# vite React TypeScript tailwindcss starter
-
-Template for vite, React + tailwindcss + TypeScript projects with some tools preconfigured.
+# Vite React TypeScript TailwindCSS starter
 
 ## About
 
-Template for vite, React + tailwindcss + TypeScript projects with some tools preconfigured.
+Template for vite, React + TailwindCSS + TypeScript projects with some tools preconfigured.
 
 ![Screenshot](assets/screenshot.png)
 
@@ -26,12 +24,6 @@ Template for vite, React + tailwindcss + TypeScript projects with some tools pre
 - [husky 8](https://typicode.github.io/husky/#/)
 - [Prettier 2](https://prettier.io/)
 - [VS Code settings](https://code.visualstudio.com/)
-
-## Usage
-
-Create a new project from this template by clicking the "Use this template" button:
-
-![](assets/template-usage.png)
 
 ```bash
 yarn
