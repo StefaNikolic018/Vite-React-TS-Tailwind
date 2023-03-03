@@ -1,7 +1,7 @@
 import React, { ReactElement, useState } from 'react'
-import logo from './logo.svg'
-import viteLogo from './vite.svg'
-import tailwindLogo from './tailwind.svg'
+import logo from './assets/logo.svg'
+import viteLogo from './assets/vite.svg'
+import tailwindLogo from './assets/tailwind.svg'
 
 function App(): ReactElement {
   const [count, setCount] = useState(0)
