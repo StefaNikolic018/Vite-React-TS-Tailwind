@@ -25,6 +25,8 @@ Template for vite, React + TailwindCSS + TypeScript projects with some tools pre
 - [Prettier 2](https://prettier.io/)
 - [VS Code settings](https://code.visualstudio.com/)
 
+### Running
+
 ```bash
 yarn
 yarn dev
