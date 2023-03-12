@@ -7,21 +7,21 @@ function App(): ReactElement {
   const [count, setCount] = useState(0)
 
   return (
-    <div className="p-20 border shadow-xl border-gray-50 rounded-xl">
+    <div className="rounded-xl border border-gray-50 p-20 shadow-xl">
       <header>
         <div className="flex justify-center">
-          <img src={viteLogo} className="w-32 h-32" alt="vite logo" />
-          <img src={logo} className="w-32 h-32" alt="React logo" />
+          <img src={viteLogo} className="h-32 w-32" alt="vite logo" />
+          <img src={logo} className="h-32 w-32" alt="React logo" />
           <img
             src={tailwindLogo}
-            className="w-32 h-32"
+            className="h-32 w-32"
             alt="Tailwind CSS logo"
           />
         </div>
         <p className="pb-3 text-2xl">Hello Vite + React + Tailwind CSS!</p>
         <p>
           <button
-            className="pt-1 pb-1 pl-2 pr-2 text-sm text-purple-100 bg-purple-400 rounded"
+            className="rounded bg-purple-400 pt-1 pb-1 pl-2 pr-2 text-sm text-purple-100"
             onClick={() => setCount((count) => count + 1)}
           >
             count is: {count}
@@ -29,7 +29,7 @@ function App(): ReactElement {
         </p>
         <p className="pt-3 pb-3">
           Edit{' '}
-          <code className="border border-1 pl-1 pr-1 pb-0.5 pt-0.5 rounded border-purple-400 font-mono text-sm bg-purple-100 text-purple-900">
+          <code className="border-1 rounded border border-purple-400 bg-purple-100 pl-1 pr-1 pb-0.5 pt-0.5 font-mono text-sm text-purple-900">
             src/App.tsx
           </code>{' '}
           and save to test HMR updates.
